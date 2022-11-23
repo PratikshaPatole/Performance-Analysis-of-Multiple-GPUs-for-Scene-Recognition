@@ -1,7 +1,6 @@
 #---------------------------------------------------------------------
 #CSYE7105 - Final Project - Spring 2022
-#Team 2
-#Contributors: Pramod Gopal, Pratiksha Patole
+#Contributors: Pratiksha Patole
 #Project Title: Performance Analysis of Multiple GPUs for a Scene Recognition Computer Vision Task
 #This code is for training scene recognition task using Distributed Data Paralell method using multi GPUs with simple ConvNet architecture
 #---------------------------------------------------------------------
@@ -28,7 +27,7 @@ from torch.autograd import Variable
 from apex import amp
 
 
-data_dir = "/home/gopal.p/pramod_gopal_csye7105/final_project/datset_v2/places365/train"
+data_dir = "/home/patole.p/csye7105/final_project/datset_v2/places365/train"
 PRINT_LOGS = False
 
 classes = []
