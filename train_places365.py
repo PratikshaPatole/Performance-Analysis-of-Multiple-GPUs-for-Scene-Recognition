@@ -1,7 +1,6 @@
 #---------------------------------------------------------------------
 #CSYE7105 - Final Project - Spring 2022
-#Team 2
-#Contributors: Pramod Gopal, Pratiksha Patole
+#Contributor: Pratiksha Patole
 #Project Title: Performance Analysis of Multiple GPUs for a Scene Recognition Computer Vision Task
 #This code is for training scene recognition task using Data Paralell method using multi GPUs with Resnet architecture
 #---------------------------------------------------------------------
@@ -55,7 +54,7 @@ parser.add_argument('--weight-decay', '--wd', default=1e-4, type=float,
                     metavar='W', help='weight decay (default: 1e-4)')
 parser.add_argument('--print-freq', '-p', default=1, type=int,
                     metavar='N', help='print frequency (default: 10)')
-parser.add_argument('--resume', default='/home/gopal.p/pramod_gopal_csye7105/final_project/checkpoints', type=str, metavar='PATH',
+parser.add_argument('--resume', default='/home/patole.p/csye7105/final_project/checkpoints', type=str, metavar='PATH',
                     help='path to latest checkpoint (default: none)')
 parser.add_argument('-e', '--evaluate', dest='evaluate', action='store_true',
                     help='evaluate model on validation set')
