@@ -1,7 +1,6 @@
 #---------------------------------------------------------------------
 #CSYE7105 - Final Project - Spring 2022
-#Team 2
-#Contributors: Pramod Gopal, Pratiksha Patole
+#Contributor: Pratiksha Patole
 #Project Title: Performance Analysis of Multiple GPUs for a Scene Recognition Computer Vision Task
 #This code is for preprocessing of images using python multiprocessing technique
 #---------------------------------------------------------------------
@@ -15,7 +14,7 @@ import time
 import matplotlib.pyplot as plt
 import sys
 
-data_dir = Path("/home/gopal.p/pramod_gopal_csye7105/final_project/datset_v2/proc_pool_data")
+data_dir = Path("/home/patole.p/csye7105/final_project/datset_v2/proc_pool_data")
 data_folders = [f for f in (data_dir).iterdir() if f.suffix == '']
 print(data_folders)
 
